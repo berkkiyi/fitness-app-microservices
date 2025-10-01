@@ -26,7 +26,6 @@ public class ActivityService {
     @Value("${rabbitmq.exchange.name}")
     private String exchange;
     @Value("${rabbitmq.routing.key}")
-
     private String routingKey;
 
 
