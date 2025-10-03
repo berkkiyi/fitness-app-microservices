@@ -69,7 +69,7 @@ public class ActivityService {
         return response;
     }
 
-    public List<ActivityResponse> getUserActivites(String userId) {
+    public List<ActivityResponse> getUserActivities(String userId) {
 
         List <Activity> activites = activityRepository.findByUserId(userId);
 
